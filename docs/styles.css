@@ -1,1 +1,13 @@
 /* css styles */
+.btn {
+  background-color: #01386A;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #01284d;
+  color: white;
+}
