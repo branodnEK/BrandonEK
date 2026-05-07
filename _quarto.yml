@@ -1,8 +1,7 @@
 project:
   type: website
   output-dir: docs
-  resources:
-    - CV/*
+
   
 
 website:
@@ -19,9 +18,6 @@ website:
         text: Home
       - href: Research.qmd
         text: Research
-      - href: about.qmd
-        text: CV
-
 format:
   html:
     backgroundcolor: "#F0EAD6"
