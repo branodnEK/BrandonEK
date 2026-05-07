@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - CV/*
+  
 
 website:
   title: "Brandon E. Koehn"
@@ -17,7 +20,7 @@ website:
       - href: Research.qmd
         text: Research
       - href: about.qmd
-        text: About
+        text: CV
 
 format:
   html:
