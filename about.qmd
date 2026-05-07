@@ -1,0 +1,9 @@
+---
+title: "Curriculum Vitae"
+---
+
+[Download Current CV](CV/Brandon_Koehn_CV.pdf){.btn .btn-primary}
+
+<iframe src="CV/Brandon_Koehn_CV.pdf" width="100%" height="900px">
+
+</iframe>

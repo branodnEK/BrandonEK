@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Brandon E. Koehn"
+  page-footer:
+    background: "#01386A"
+    foreground: "white"
+    center: "Made with Quarto"
+  navbar:
+    background: "#01386A"
+    foreground: "white"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: Research.qmd
+        text: Research
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    backgroundcolor: "#F0EAD6"
+    linkcolor: "blue"
+    fontcolor: "black"
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+
